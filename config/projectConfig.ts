@@ -18,12 +18,12 @@ const projectConfig = {
 
   chainId: process.env.NODE_ENV === 'production' ? 1 : 4, // Ethereum (1), Rinkeby (4)
 
-  siteDomain: 'www.yourdomain.com',
+  siteDomain: 'https://simple-one.vercel.app/',
 
   siteUrl:
     process.env.NODE_ENV === 'production'
-      ? `https://your_site_domain`
-      : 'http://localhost:3000',
+      ? `https://simple-one.vercel.app/`
+      : 'https://simple-one.vercel.app/',
 
   twitterUsername: '@your_twitter_handle',
 
