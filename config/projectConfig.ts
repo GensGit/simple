@@ -18,11 +18,18 @@ const projectConfig = {
 
   chainId: process.env.NODE_ENV === 'production' ? 1 : 4, // Ethereum (1), Rinkeby (4)
 
+  siteDomain: 'www.yourdomain.com',
 
   siteUrl:
     process.env.NODE_ENV === 'production'
       ? `https://your_site_domain`
       : 'http://localhost:3000',
+
+  twitterUsername: '@your_twitter_handle',
+
+  twitterUrl: 'https://twitter.com/your_twitter_handle',
+    
+  discordUrl: 'https://discord.gg/your_discord_invite_code',
 
   openseaCollectionUrl:
     process.env.NODE_ENV === 'production'
